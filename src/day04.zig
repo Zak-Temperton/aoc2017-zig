@@ -63,6 +63,14 @@ fn part2(alloc: Allocator, input: []const u8) !usize {
 }
 
 test "part1" {
+    try std.testing.expect(try part1(std.testing.allocator,
+        \\aa bb cc dd ee
+        \\aa bb cc dd aa
+        \\aa bb cc dd aaa
+    ) == 2);
+}
+
+test "part2" {
     try std.testing.expect(try part2(std.testing.allocator,
         \\abcde fghij
         \\abcde xyz ecdab
@@ -71,5 +79,3 @@ test "part1" {
         \\oiii ioii iioi iiio
     ) == 3);
 }
-
-test "part2" {}
