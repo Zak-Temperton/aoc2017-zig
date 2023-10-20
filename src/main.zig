@@ -1,5 +1,6 @@
 const std = @import("std");
 const day01 = @import("day01.zig");
+const day02 = @import("day02.zig");
 
 const Day = enum {
     day01,
@@ -76,7 +77,7 @@ pub fn main() !void {
         if (days.get(day)) |day_enum| {
             switch (day_enum) {
                 .day01 => try day01.run(alloc, stdout),
-                .day02 => {},
+                .day02 => try day02.run(alloc, stdout),
                 .day03 => {},
                 .day04 => {},
                 .day05 => {},
