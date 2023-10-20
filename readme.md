@@ -1,6 +1,6 @@
-# Advent of Code 2022
+# Advent of Code 2017
 
-My solutions to Advent of Code 2016 in Zig
+My solutions to Advent of Code 2017 in Zig
 
 | Day | Title                                                           | Solution                   |
 | --- | --------------------------------------------------------------- | -------------------------- |
