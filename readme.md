@@ -13,3 +13,4 @@ My solutions to Advent of Code 2017 in Zig
 | 07  | [Recursive Circus](https://adventofcode.com/2017/day/7)                         | [day07.zig](src/day07.zig) |
 | 08  | [I Heard You Like Registers](https://adventofcode.com/2017/day/8)               | [day08.zig](src/day08.zig) |
 | 09  | [Stream Processing](https://adventofcode.com/2017/day/9)                        | [day09.zig](src/day09.zig) |
+| 10  | [Knot Hash](https://adventofcode.com/2017/day/10)                               | [day10.zig](src/day10.zig) |
