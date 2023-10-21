@@ -9,4 +9,5 @@ My solutions to Advent of Code 2017 in Zig
 | 03  | [Spiral Memory](https://adventofcode.com/2017/day/3)                            | [day03.zig](src/day03.zig) |
 | 04  | [High-Entropy Passphrases](https://adventofcode.com/2017/day/4)                 | [day04.zig](src/day04.zig) |
 | 05  | [A Maze of Twisty Trampolines, All Alike](https://adventofcode.com/2017/day/5)  | [day05.zig](src/day05.zig) |
-| 06  | [Memory Reallocation](https://adventofcode.com/2017/day/5)                      | [day06.zig](src/day06.zig) |
+| 06  | [Memory Reallocation](https://adventofcode.com/2017/day/6)                      | [day06.zig](src/day06.zig) |
+| 07  | [Recursive Circus](https://adventofcode.com/2017/day/7)                         | [day07.zig](src/day07.zig) |
