@@ -15,15 +15,6 @@ pub fn run(alloc: Allocator, stdout: anytype) !void {
     try stdout.print("Day08:\npart1: {d} {d}ns\npart2: {d} {d}ns", .{ p1, p1_time, p2, p2_time });
 }
 
-fn hash(state: []u8) u128 {
-    var result: u128 = 0;
-    for (state) |val| {
-        result <<= 4;
-        result |= val;
-    }
-    return result;
-}
-
 fn part1(alloc: Allocator, input: []const u8) !i32 {
     var registers = std.StringHashMap(i32).init(alloc);
     defer registers.deinit();
