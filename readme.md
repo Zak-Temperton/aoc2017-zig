@@ -11,3 +11,4 @@ My solutions to Advent of Code 2017 in Zig
 | 05  | [A Maze of Twisty Trampolines, All Alike](https://adventofcode.com/2017/day/5)  | [day05.zig](src/day05.zig) |
 | 06  | [Memory Reallocation](https://adventofcode.com/2017/day/6)                      | [day06.zig](src/day06.zig) |
 | 07  | [Recursive Circus](https://adventofcode.com/2017/day/7)                         | [day07.zig](src/day07.zig) |
+| 08  | [I Heard You Like Registers](https://adventofcode.com/2017/day/8)               | [day08.zig](src/day08.zig) |
