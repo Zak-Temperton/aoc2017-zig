@@ -15,3 +15,4 @@ My solutions to Advent of Code 2017 in Zig
 | 09  | [Stream Processing](https://adventofcode.com/2017/day/9)                        | [day09.zig](src/day09.zig) |
 | 10  | [Knot Hash](https://adventofcode.com/2017/day/10)                               | [day10.zig](src/day10.zig) |
 | 11  | [Hex Ed](https://adventofcode.com/2017/day/11)                                  | [day11.zig](src/day11.zig) |
+| 12  | [Digital Plumber(https://adventofcode.com/2017/day/12)                          | [day12.zig](src/day12.zig) |
