@@ -15,6 +15,7 @@ const day13 = @import("day13.zig");
 const day14 = @import("day14.zig");
 const day15 = @import("day15.zig");
 const day16 = @import("day16.zig");
+const day17 = @import("day17.zig");
 
 const Day = enum {
     day01,
@@ -106,7 +107,7 @@ pub fn main() !void {
                 .day14 => try day14.run(alloc, stdout),
                 .day15 => try day15.run(alloc, stdout),
                 .day16 => try day16.run(alloc, stdout),
-                .day17 => {},
+                .day17 => try day17.run(alloc, stdout),
                 .day18 => {},
                 .day19 => {},
                 .day20 => {},
@@ -124,11 +125,4 @@ pub fn main() !void {
     }
 
     try bw.flush(); // don't forget to flush!
-}
-
-test "simple test" {
-    var list = std.ArrayList(i32).init(std.testing.allocator);
-    defer list.deinit(); // try commenting this out and see if zig detects the memory leak!
-    try list.append(42);
-    try std.testing.expectEqual(@as(i32, 42), list.pop());
 }
