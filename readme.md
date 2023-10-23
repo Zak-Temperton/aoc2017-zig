@@ -18,3 +18,4 @@ My solutions to Advent of Code 2017 in Zig
 | 12  | [Digital Plumber](https://adventofcode.com/2017/day/12)                         | [day12.zig](src/day12.zig) |
 | 13  | [Packet Scanners](https://adventofcode.com/2017/day/13)                         | [day13.zig](src/day13.zig) |
 | 14  | [Disk Defragmentation](https://adventofcode.com/2017/day/14)                    | [day14.zig](src/day14.zig) |
+| 15  | [Dueling Generators](https://adventofcode.com/2017/day/15)                      | [day15.zig](src/day15.zig) |
