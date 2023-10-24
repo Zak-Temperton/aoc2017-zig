@@ -21,3 +21,4 @@ My solutions to Advent of Code 2017 in Zig
 | 15  | [Dueling Generators](https://adventofcode.com/2017/day/15)                      | [day15.zig](src/day15.zig) |
 | 16  | [Permutation Promenade](https://adventofcode.com/2017/day/16)                   | [day16.zig](src/day16.zig) |
 | 17  | [Spinlock](https://adventofcode.com/2017/day/17)                                | [day17.zig](src/day17.zig) |
+| 18  | [Duet](https://adventofcode.com/2017/day/18)                                    | [day18.zig](src/day18.zig) |
