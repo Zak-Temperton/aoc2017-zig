@@ -22,3 +22,4 @@ My solutions to Advent of Code 2017 in Zig
 | 16  | [Permutation Promenade](https://adventofcode.com/2017/day/16)                   | [day16.zig](src/day16.zig) |
 | 17  | [Spinlock](https://adventofcode.com/2017/day/17)                                | [day17.zig](src/day17.zig) |
 | 18  | [Duet](https://adventofcode.com/2017/day/18)                                    | [day18.zig](src/day18.zig) |
+| 19  | [A Series of Tubes](https://adventofcode.com/2017/day/19)                       | [day19.zig](src/day19.zig) |
