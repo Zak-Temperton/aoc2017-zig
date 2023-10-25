@@ -20,6 +20,7 @@ const day18 = @import("day18.zig");
 const day19 = @import("day19.zig");
 const day20 = @import("day20.zig");
 const day21 = @import("day21.zig");
+const day22 = @import("day22.zig");
 
 const Day = enum {
     day01,
@@ -116,16 +117,17 @@ pub fn main() !void {
                 .day19 => try day19.run(alloc, stdout),
                 .day20 => try day20.run(alloc, stdout),
                 .day21 => try day21.run(alloc, stdout),
-                .day22 => {},
+                .day22 => try day22.run(alloc, stdout),
                 .day23 => {},
                 .day24 => {},
                 .day25 => {},
             }
         } else {
-            try stdout.print("invalid day", .{});
+            try stdout.print("invalid day\n", .{});
+            try stdout.print("Give the day as an argument e.g. zig build run -- day01", .{});
         }
     } else {
-        try stdout.print("Give the day as an argument e.g. zig build run day01", .{});
+        try stdout.print("Give the day as an argument e.g. zig build run -- day01", .{});
     }
 
     try bw.flush(); // don't forget to flush!

@@ -25,3 +25,4 @@ My solutions to Advent of Code 2017 in Zig
 | 19  | [A Series of Tubes](https://adventofcode.com/2017/day/19)                       | [day19.zig](src/day19.zig) |
 | 20  | [Particle Swarm](https://adventofcode.com/2017/day/20)                          | [day20.zig](src/day20.zig) |
 | 21  | [Fractal Art](https://adventofcode.com/2017/day/21)                             | [day21.zig](src/day21.zig) |
+| 22  | [Sporifica Virus](https://adventofcode.com/2017/day/22)                         | [day22.zig](src/day22.zig) |
