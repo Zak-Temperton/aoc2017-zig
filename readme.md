@@ -24,3 +24,4 @@ My solutions to Advent of Code 2017 in Zig
 | 18  | [Duet](https://adventofcode.com/2017/day/18)                                    | [day18.zig](src/day18.zig) |
 | 19  | [A Series of Tubes](https://adventofcode.com/2017/day/19)                       | [day19.zig](src/day19.zig) |
 | 20  | [Particle Swarm](https://adventofcode.com/2017/day/20)                          | [day20.zig](src/day20.zig) |
+| 21  | [Fractal Art](https://adventofcode.com/2017/day/21)                             | [day21.zig](src/day21.zig) |
