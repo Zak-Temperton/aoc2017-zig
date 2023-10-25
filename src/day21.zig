@@ -324,7 +324,6 @@ fn part2(alloc: Allocator, input: []const u8) !usize {
         pattern = new_pattern;
     }
     var count: usize = 0;
-    std.debug.print("\n{d}\n", .{pattern.items.len});
     for (pattern.items) |item| count += @popCount(item);
 
     return count;
