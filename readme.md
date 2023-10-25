@@ -23,3 +23,4 @@ My solutions to Advent of Code 2017 in Zig
 | 17  | [Spinlock](https://adventofcode.com/2017/day/17)                                | [day17.zig](src/day17.zig) |
 | 18  | [Duet](https://adventofcode.com/2017/day/18)                                    | [day18.zig](src/day18.zig) |
 | 19  | [A Series of Tubes](https://adventofcode.com/2017/day/19)                       | [day19.zig](src/day19.zig) |
+| 20  | [Particle Swarm](https://adventofcode.com/2017/day/20)                          | [day20.zig](src/day20.zig) |
