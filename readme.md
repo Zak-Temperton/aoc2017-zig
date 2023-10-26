@@ -27,3 +27,4 @@ My solutions to Advent of Code 2017 in Zig
 | 21  | [Fractal Art](https://adventofcode.com/2017/day/21)                             | [day21.zig](src/day21.zig) |
 | 22  | [Sporifica Virus](https://adventofcode.com/2017/day/22)                         | [day22.zig](src/day22.zig) |
 | 23  | [Coprocessor Conflagration](https://adventofcode.com/2017/day/23)               | [day23.zig](src/day23.zig) |
+| 24  | [Electromagnetic Moat](https://adventofcode.com/2017/day/24)                    | [day24.zig](src/day24.zig) |
