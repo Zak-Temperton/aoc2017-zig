@@ -21,6 +21,7 @@ const day19 = @import("day19.zig");
 const day20 = @import("day20.zig");
 const day21 = @import("day21.zig");
 const day22 = @import("day22.zig");
+const day23 = @import("day23.zig");
 
 const Day = enum {
     day01,
@@ -118,7 +119,7 @@ pub fn main() !void {
                 .day20 => try day20.run(alloc, stdout),
                 .day21 => try day21.run(alloc, stdout),
                 .day22 => try day22.run(alloc, stdout),
-                .day23 => {},
+                .day23 => try day23.run(alloc, stdout),
                 .day24 => {},
                 .day25 => {},
             }
