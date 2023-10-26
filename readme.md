@@ -28,3 +28,4 @@ My solutions to Advent of Code 2017 in Zig
 | 22  | [Sporifica Virus](https://adventofcode.com/2017/day/22)                         | [day22.zig](src/day22.zig) |
 | 23  | [Coprocessor Conflagration](https://adventofcode.com/2017/day/23)               | [day23.zig](src/day23.zig) |
 | 24  | [Electromagnetic Moat](https://adventofcode.com/2017/day/24)                    | [day24.zig](src/day24.zig) |
+| 25  | [The Halting Problem](https://adventofcode.com/2017/day/25)                     | [day25.zig](src/day25.zig) |
