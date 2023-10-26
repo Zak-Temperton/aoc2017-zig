@@ -51,6 +51,7 @@ const Day = enum {
     day23,
     day24,
     day25,
+    all,
 };
 
 const days = std.ComptimeStringMap(Day, .{
@@ -79,6 +80,7 @@ const days = std.ComptimeStringMap(Day, .{
     .{ "day23", .day23 },
     .{ "day24", .day24 },
     .{ "day25", .day25 },
+    .{ "all", .all },
 });
 
 pub fn main() !void {
@@ -124,6 +126,33 @@ pub fn main() !void {
                 .day23 => try day23.run(alloc, stdout),
                 .day24 => try day24.run(alloc, stdout),
                 .day25 => try day25.run(alloc, stdout),
+                .all => {
+                    try day01.run(alloc, stdout);
+                    try day02.run(alloc, stdout);
+                    try day03.run(alloc, stdout);
+                    try day04.run(alloc, stdout);
+                    try day05.run(alloc, stdout);
+                    try day06.run(alloc, stdout);
+                    try day07.run(alloc, stdout);
+                    try day08.run(alloc, stdout);
+                    try day09.run(alloc, stdout);
+                    try day10.run(alloc, stdout);
+                    try day11.run(alloc, stdout);
+                    try day12.run(alloc, stdout);
+                    try day13.run(alloc, stdout);
+                    try day14.run(alloc, stdout);
+                    try day15.run(alloc, stdout);
+                    try day16.run(alloc, stdout);
+                    try day17.run(alloc, stdout);
+                    try day18.run(alloc, stdout);
+                    try day19.run(alloc, stdout);
+                    try day20.run(alloc, stdout);
+                    try day21.run(alloc, stdout);
+                    try day22.run(alloc, stdout);
+                    try day23.run(alloc, stdout);
+                    try day24.run(alloc, stdout);
+                    try day25.run(alloc, stdout);
+                },
             }
         } else {
             try stdout.print("invalid day\n", .{});

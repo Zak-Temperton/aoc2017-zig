@@ -13,7 +13,7 @@ pub fn run(alloc: Allocator, stdout: anytype) !void {
     const p1_time = timer.lap();
     const p2 = try part2(alloc, input);
     const p2_time = timer.read();
-    try stdout.print("Day16:\npart1: {s} {d}ns\npart2: {s} {d}ns", .{ p1, p1_time, p2, p2_time });
+    try stdout.print("Day16:\n  part1: {s} {d}ns\n  part2: {s} {d}ns\n", .{ p1, p1_time, p2, p2_time });
 }
 fn CircularBuffer(comptime S: usize) type {
     return struct {

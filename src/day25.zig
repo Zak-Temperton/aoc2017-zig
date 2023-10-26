@@ -10,7 +10,7 @@ pub fn run(alloc: Allocator, stdout: anytype) !void {
     var timer = try std.time.Timer.start();
     const p1 = try part1(alloc, buffer);
     const p1_time = timer.lap();
-    try stdout.print("Day25:\npart1: {d} {d}ns", .{ p1, p1_time });
+    try stdout.print("Day25:\n  part1: {d} {d}ns\n", .{ p1, p1_time });
 }
 
 const State = struct {

@@ -12,7 +12,7 @@ pub fn run(alloc: Allocator, stdout: anytype) !void {
     const p1_time = timer.lap();
     const p2 = part2();
     const p2_time = timer.read();
-    try stdout.print("Day23:\npart1: {d} {d}ns\npart2: {d} {d}ns", .{ p1, p1_time, p2, p2_time });
+    try stdout.print("Day23:\n  part1: {d} {d}ns\n  part2: {d} {d}ns\n", .{ p1, p1_time, p2, p2_time });
 }
 
 const Register = union(enum) {

@@ -12,7 +12,7 @@ pub fn run(alloc: Allocator, stdout: anytype) !void {
     const p1_time = timer.lap();
     const p2 = try part2(alloc, buffer);
     const p2_time = timer.read();
-    try stdout.print("Day07:\npart1: {s} {d}ns\npart2: {d} {d}ns", .{ p1, p1_time, p2, p2_time });
+    try stdout.print("Day07:\n  part1: {s} {d}ns\n  part2: {d} {d}ns\n", .{ p1, p1_time, p2, p2_time });
 }
 
 fn part1(alloc: Allocator, input: []const u8) ![]const u8 {

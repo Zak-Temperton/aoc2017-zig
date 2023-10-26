@@ -3,13 +3,16 @@ const Allocator = std.mem.Allocator;
 const HashMap = std.AutoHashMap;
 
 pub fn run(alloc: Allocator, stdout: anytype) !void {
-    const input = 277678;
+    const file = try std.fs.cwd().openFile("src/data/day03.txt", .{ .mode = .read_only });
+    const buffer = try file.readToEndAlloc(alloc, std.math.maxInt(u32));
+    defer alloc.free(buffer);
+    var input = try std.fmt.parseInt(usize, std.mem.trimRight(u8, buffer, "\r\n"), 10);
     var timer = try std.time.Timer.start();
     const p1 = part1(input);
     const p1_time = timer.lap();
     const p2 = try part2(alloc, input);
     const p2_time = timer.read();
-    try stdout.print("Day03:\npart1: {d} {d}ns\npart2: {d} {d}ns", .{ p1, p1_time, p2, p2_time });
+    try stdout.print("Day03:\n  part1: {d} {d}ns\n  part2: {d} {d}ns\n", .{ p1, p1_time, p2, p2_time });
 }
 
 fn part1(input: usize) usize {
